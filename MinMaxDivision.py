@@ -1,11 +1,11 @@
 
 
 def solution(K, M, A):
-
+    
     sizeOfSet = 0
     countOfSets = 0
     arrangementFound = False
-    M = min(A)-1
+    M = max(A)-1
     while (arrangementFound == False):
         M += 1
         arrangementFound = True
