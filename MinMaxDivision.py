@@ -1,7 +1,7 @@
 
 
 def solution(K, M, A):
-    
+    #mainloop just checks every possible minimum sum for a set, starting at the largest number in the starting set
     sizeOfSet = 0
     countOfSets = 0
     arrangementFound = False
