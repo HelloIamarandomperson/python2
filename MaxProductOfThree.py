@@ -1,4 +1,5 @@
 def solution(A):
+    #function will grab all of the largest values and 2 of the largest negative values, if the negative values make a larger number than the 2 smaller positive values, it will switch them out. 
     High1 = -1001
     High2 = -1001
     High3 = -1001
